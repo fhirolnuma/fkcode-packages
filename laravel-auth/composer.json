@@ -1,0 +1,22 @@
+{
+  "name": "fkcode/laravel-auth",
+  "description": "Laravel Sanctum cookie-based SPA authentication package",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Fkcode\\Auth\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^12.0",
+    "laravel/sanctum": "^4.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Fkcode\\Auth\\AuthServiceProvider"
+      ]
+    }
+  }
+}
