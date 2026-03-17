@@ -1,4 +1,4 @@
-import { defineNuxtRouteMiddleware, navigateTo } from '#app'
+import { defineNuxtRouteMiddleware, navigateTo } from 'nuxt/app'
 
 export default defineNuxtRouteMiddleware(async () => {
   if (import.meta.server) return
